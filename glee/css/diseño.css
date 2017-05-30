@@ -1,0 +1,21 @@
+body{
+	padding: 70px;
+
+}
+body {
+	background: #ccc url("../imagen/7F5.webp") no-repeat center center fixed;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background: cover;
+	text-align: center;
+}
+body img {
+	width: 100%;
+}
+
+header{
+	background: #Black;
+}
