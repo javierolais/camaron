@@ -53,7 +53,7 @@ $(function(){
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.php"><font color="White"face="Eras Medium ITC" >Principal</font></a></li> 
+            <li><a href="formulario.php"><font color="White"face="Eras Medium ITC" >Principal</font></a></li> 
             </ul>
             <hr>
         </div><!--/.nav-collapse -->

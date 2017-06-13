@@ -62,7 +62,7 @@
     <input id="txtPassword" type="password" placeholder="Password">
     <button id="btnLogin" class="btn btn-action"> Log In </button>
     <button id="btnSignUp" class="btn btn-secondary"> Sign Up </button>
-    
+    <button id="btnLogout" class="btn btn-action hide"> Log out </button>
       <img src="imagen/o.jpg" width="500" height="500" alt="glee">
   </div>
 

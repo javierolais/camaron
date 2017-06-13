@@ -68,7 +68,7 @@
     <center>
     <section id="Principal-wrapper">
       <div class="container descripcion-empresa">
-        <button id="btnLogout" class="btn btn-action hide"> Log out </button>
+        
         <div class="row">
           <!-- colunma izquierda-->
           <div class="col-sm-6 texto-cotiza-izq">

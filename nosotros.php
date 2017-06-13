@@ -53,7 +53,7 @@ $(function(){
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.php"><font color="White"face="Eras Medium ITC" >Principal</font></a></li> 
+            <li><a href="formulario.php"><font color="White"face="Eras Medium ITC" >Principal</font></a></li> 
             </ul>
             <hr>
         </div><!--/.nav-collapse -->
@@ -66,10 +66,9 @@ $(function(){
         <div class="row">
           <div class="col-sm-4 col-sm-4-nosotros">
             <img src="imagen/camaronesgranjaaaa.jpg">
-              <!--aqui se encuentra la descripcion de la empresa-->
               <h2><font color="White"face="Berlin Sans FB" >Ocean Seed</font></h2>
             <hr>
-            <p><font color="White"face="Berlin Sans FB" >Oceand Seed es una empresa con altos estandares de cuidados y de reglamentos, tanto como la higiene y el buen comportamiento de los trabajadores asi tambien como el compromiso que tienen con el trabajo desempeñado para que en todas los estanques se cumpla con la demanda expuesta por los clientes.</font></p>
+            <p><font color="White"face="Berlin Sans FB" >Ocean Seed es una empresa dedica a la cosecha y el cultivo de camaron. Oceand Seed es una empresa con altos estandares de cuidados y de reglamentos, tanto como la higiene y el buen comportamiento de los trabajadores asi tambien como el compromiso que tienen con el trabajo desempeñado para que en todas los estanques se cumpla con la demanda expuesta por los clientes.</font></p>
           </div>
              <div class="col-sm-4 col-sm-4-nosotros">
             <img src="imagen/trabajadores.jpg" width="100" height="213">
