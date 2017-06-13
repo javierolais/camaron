@@ -1,5 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html> 
+<html>
+<head>
+    <html lang="es">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,11 +36,12 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-  <header>
-  <!--Barra de estado-->
-  <nav class="navbar navbar-nav navbar-fixed-top">
+  <meta charset="utf-8">
+  <title> FireBase </title>
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-nav navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button  type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" >
@@ -51,57 +54,19 @@
            <img src="imagen/cama.png">
           </a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#Principal-wrapper"><font color="White"face="Eras Medium ITC" >Principal</font></a></li>
-              <li><a href="nosotros.php"><font color="White"face="Eras Medium ITC" >Nosotros</font></a></li>
-              <li><a href="galeria.php"><font color="White"face="Eras Medium ITC" >Galeria</font></a></li>
-              <li><a href="contacto.php"><font color="White"face="Eras Medium ITC" >Contacto</font></a></li>
-            </ul>
-            <hr>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-    </header>
-    <!-- seccion del encabezado-->
-    <center>
-    <section id="Principal-wrapper">
-      <div class="container descripcion-empresa">
-        <div class="row">
-          <!-- colunma izquierda-->
-          <div class="col-sm-6 texto-cotiza-izq">
-          <font color="White">
-            <h1><font color="White"face="Castellar" >Ocean Seed</font></h1>
-              <br>
-              <h2><font color="White"face="Brush Script MT" size = "10" >Granja De Camaron</font></h2>
-              <br>
-              <br>
-            <h3> La vida es solo un montón de experiencias, ¿sabes?. No te dan una medalla en la línea de llegada solo por haber sido bueno. Solamente te mueres.</h3>
-          </div>
-          <div class="col-sm-6 texto-cotiza-der">
-            <div class="cotiza">
-              <img src="imagen/o.jpg" width="500" height="500" alt="glee">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    </center>
-    <section id="footer-wrapper">
-      <div class="container">
-        <div class="row">
-            <hr>
-          <footer>
-            <p><font color="Black">Mind Force | 2017</font> </p>
-          </footer>
-        </div>
-      </div>
-    </section>
+  <div class="container">
+      <br>
+      <br>
+      <br>
+    <input id="txtEmail" type="email" placeholder="Email">
+    <input id="txtPassword" type="password" placeholder="Password">
+    <button id="btnLogin" class="btn btn-action"> Log In </button>
+    <button id="btnSignUp" class="btn btn-secondary"> Sign Up </button>
+    
+      <img src="imagen/o.jpg" width="500" height="500" alt="glee">
+  </div>
 
+  <script src="firebase1.js"> </script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>
